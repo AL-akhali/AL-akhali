@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">Live public GitHub signal for Anas Al-Akhali</title>
+<desc id="desc">Automatically updated public repositories, stars, forks, followers and language distribution.</desc>
+<style>
+text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.title { fill:#172330;font:bold 31px Arial,sans-serif } .sub { fill:#5f6870;font:15px Arial,sans-serif }
+.chrome { fill:#5f6870;font:bold 13px monospace } .metric { fill:#172330;font:bold 30px monospace }
+.label { fill:#48657d;font:bold 12px monospace } .small { fill:#5f6870;font:11px monospace }
+  .card { fill:#fffdf9;stroke:#b89a7e } .corner { stroke:#263a4d }
+  .title,.metric { fill:#172330 } .sub,.chrome,.small { fill:#5f6870 } .label { fill:#48657d }
+  .track { fill:#d8cec2 } .bar { fill:#9a6540 }
+}
+</style>
+<rect class="bg" width="1200" height="520" fill="#f5f1ea"/>
+<defs><pattern id="g" width="30" height="30" patternUnits="userSpaceOnUse"><path class="grid" d="M30 0H0V30" fill="none" stroke="#e9e1d8"/></pattern></defs>
+<rect width="1200" height="520" fill="url(#g)"/>
+<circle cx="38" cy="32" r="5" fill="#ff6b6b"/><circle cx="62" cy="32" r="5" fill="#9a6540"/><circle cx="86" cy="32" r="5" fill="#263a4d"/>
+<text x="112" y="36" class="chrome">SIGNAL://LIVE_PUBLIC_DATA</text><text x="1164" y="36" text-anchor="end" class="small">AUTO-SYNC / GITHUB API</text>
+<path class="rule" d="M30 52H1170" stroke="#d8cec2"/>
+<text x="56" y="104" class="title">LIVE PUBLIC SIGNAL</text>
+<text x="56" y="137" class="sub">Verified public data. Generated from the official GitHub API.</text>
+<rect class="card" x="56" y="157" width="244" height="105" rx="8" fill="#fffdf9" stroke="#b89a7e"/><path class="corner" d="M56 177V157H76 M280 157H300V177" stroke="#263a4d" stroke-width="2"/><text x="76" y="191" class="metric">18</text><text x="76" y="232" class="label">PUBLIC REPOS</text><rect class="card" x="328" y="157" width="244" height="105" rx="8" fill="#fffdf9" stroke="#b89a7e"/><path class="corner" d="M328 177V157H348 M552 157H572V177" stroke="#263a4d" stroke-width="2"/><text x="348" y="191" class="metric">1</text><text x="348" y="232" class="label">TOTAL STARS</text><rect class="card" x="600" y="157" width="244" height="105" rx="8" fill="#fffdf9" stroke="#b89a7e"/><path class="corner" d="M600 177V157H620 M824 157H844V177" stroke="#263a4d" stroke-width="2"/><text x="620" y="191" class="metric">1</text><text x="620" y="232" class="label">TOTAL FORKS</text><rect class="card" x="872" y="157" width="244" height="105" rx="8" fill="#fffdf9" stroke="#b89a7e"/><path class="corner" d="M872 177V157H892 M1096 157H1116V177" stroke="#263a4d" stroke-width="2"/><text x="892" y="191" class="metric">0</text><text x="892" y="232" class="label">FOLLOWERS</text>
+<text x="56" y="322" class="label">LANGUAGE STACK / PUBLIC CODE</text>
+<path class="rule" d="M56 343H355 M355 300V465 M56 465H1144" stroke="#d8cec2"/>
+<text x="56" y="382" class="metric">05</text><text x="56" y="412" class="label">ACTIVE LANGUAGES</text>
+<text x="56" y="448" class="small">SOURCE  api.github.com</text>
+<text x="405" y="326" class="label">PHP</text><rect class="track" x="595" y="314" width="550" height="10" rx="5" fill="#d8cec2"/><rect class="bar" x="595" y="314" width="219" height="10" rx="5" fill="#9a6540"/><text x="1138" y="326" text-anchor="end" class="small">39.9%</text><text x="405" y="357" class="label">CSS</text><rect class="track" x="595" y="345" width="550" height="10" rx="5" fill="#d8cec2"/><rect class="bar" x="595" y="345" width="100" height="10" rx="5" fill="#9a6540"/><text x="1138" y="357" text-anchor="end" class="small">18.2%</text><text x="405" y="388" class="label">BLADE</text><rect class="track" x="595" y="376" width="550" height="10" rx="5" fill="#d8cec2"/><rect class="bar" x="595" y="376" width="88" height="10" rx="5" fill="#9a6540"/><text x="1138" y="388" text-anchor="end" class="small">16.0%</text><text x="405" y="419" class="label">DART</text><rect class="track" x="595" y="407" width="550" height="10" rx="5" fill="#d8cec2"/><rect class="bar" x="595" y="407" width="48" height="10" rx="5" fill="#9a6540"/><text x="1138" y="419" text-anchor="end" class="small">8.7%</text><text x="405" y="450" class="label">TYPESCRIPT</text><rect class="track" x="595" y="438" width="550" height="10" rx="5" fill="#d8cec2"/><rect class="bar" x="595" y="438" width="43" height="10" rx="5" fill="#9a6540"/><text x="1138" y="450" text-anchor="end" class="small">7.9%</text>
+<text x="1144" y="495" text-anchor="end" class="small">LAST SYNC  2026-10-25 12:23 UTC</text>
+</svg>

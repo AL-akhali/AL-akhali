@@ -1,10 +1,6 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/anas-system-profile.png">
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/anas-system-profile-light.png">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/anas-system-profile.gif">
-    <img src="assets/anas-system-profile-light.gif" alt="Animated system profile for Anas Al-Akhali with an ASCII portrait, terminal boot sequence, identity node, technical stack and connected-system workflow." width="100%">
-  </picture>
+  <img src="assets/anas-system-profile.gif#gh-dark-mode-only" alt="Animated dark system profile for Anas Al-Akhali." width="100%">
+  <img src="assets/anas-system-profile-light.gif#gh-light-mode-only" alt="Animated light system profile for Anas Al-Akhali." width="100%">
 </p>
 
 <p align="center">
@@ -16,21 +12,27 @@
 </p>
 
 <a href="https://al-akhali.github.io/en/">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/capability-orchestration.png"><img src="assets/capability-orchestration-light.png" alt="Anas Al-Akhali capability map: business systems, mobile products, AI execution, and reliable delivery." width="100%"></picture>
+  <img src="assets/capability-orchestration.png#gh-dark-mode-only" alt="Anas Al-Akhali capability map in dark mode." width="100%">
+  <img src="assets/capability-orchestration-light.png#gh-light-mode-only" alt="Anas Al-Akhali capability map in light mode." width="100%">
 </a>
 
 <a href="https://al-akhali.github.io/en/">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/selected-systems-terminal.png"><img src="assets/selected-systems-terminal-light.png" alt="Selected systems: multi-tenant SaaS, modular HR, and AI agents and automation." width="100%"></picture>
+  <img src="assets/selected-systems-terminal.png#gh-dark-mode-only" alt="Selected systems in dark mode." width="100%">
+  <img src="assets/selected-systems-terminal-light.png#gh-light-mode-only" alt="Selected systems in light mode." width="100%">
 </a>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/operating-protocol.png"><img src="assets/operating-protocol-light.png" alt="Operating protocol: understand, structure, build and connect." width="100%"></picture>
+<img src="assets/operating-protocol.png#gh-dark-mode-only" alt="Operating protocol in dark mode." width="100%">
+<img src="assets/operating-protocol-light.png#gh-light-mode-only" alt="Operating protocol in light mode." width="100%">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dual-discipline.png"><img src="assets/dual-discipline-light.png" alt="Information Technology and Accounting combined into system thinking." width="100%"></picture>
+<img src="assets/dual-discipline.png#gh-dark-mode-only" alt="Information Technology and Accounting in dark mode." width="100%">
+<img src="assets/dual-discipline-light.png#gh-light-mode-only" alt="Information Technology and Accounting in light mode." width="100%">
 
-<img src="assets/live-public-signal.svg" alt="Live public GitHub metrics for Anas Al-Akhali, automatically updated from the official GitHub API." width="100%">
+<img src="assets/live-public-signal.svg#gh-dark-mode-only" alt="Live public GitHub metrics in dark mode." width="100%">
+<img src="assets/live-public-signal-light.svg#gh-light-mode-only" alt="Live public GitHub metrics in light mode." width="100%">
 
 <a href="mailto:alakhalianas@gmail.com">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-signal.png"><img src="assets/contact-signal-light.png" alt="Open channel to build, improve or connect a system." width="100%"></picture>
+  <img src="assets/contact-signal.png#gh-dark-mode-only" alt="Open channel in dark mode." width="100%">
+  <img src="assets/contact-signal-light.png#gh-light-mode-only" alt="Open channel in light mode." width="100%">
 </a>
 
 <p align="center">

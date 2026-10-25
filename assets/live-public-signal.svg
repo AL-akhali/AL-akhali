@@ -6,8 +6,6 @@ text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 .title { fill:#f3f1eb;font:bold 31px Arial,sans-serif } .sub { fill:#aaa69e;font:15px Arial,sans-serif }
 .chrome { fill:#aaa69e;font:bold 13px monospace } .metric { fill:#f3f1eb;font:bold 30px monospace }
 .label { fill:#c9b9a8;font:bold 12px monospace } .small { fill:#aaa69e;font:11px monospace }
-@media (prefers-color-scheme: light) {
-  .bg { fill:#f5f1ea } .grid { stroke:#e9e1d8 } .rule { stroke:#d8cec2 }
   .card { fill:#fffdf9;stroke:#b89a7e } .corner { stroke:#263a4d }
   .title,.metric { fill:#172330 } .sub,.chrome,.small { fill:#5f6870 } .label { fill:#48657d }
   .track { fill:#d8cec2 } .bar { fill:#9a6540 }
