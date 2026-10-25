@@ -1,7 +1,9 @@
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/anas-system-profile.png">
-    <img src="assets/anas-system-profile.gif" alt="Animated system profile for Anas Al-Akhali with an ASCII portrait, terminal boot sequence, identity node, technical stack and connected-system workflow." width="100%">
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/anas-system-profile.png">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/anas-system-profile-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/anas-system-profile.gif">
+    <img src="assets/anas-system-profile-light.gif" alt="Animated system profile for Anas Al-Akhali with an ASCII portrait, terminal boot sequence, identity node, technical stack and connected-system workflow." width="100%">
   </picture>
 </p>
 
@@ -14,21 +16,21 @@
 </p>
 
 <a href="https://al-akhali.github.io/en/">
-  <img src="assets/capability-orchestration.png" alt="Anas Al-Akhali capability map: business systems, mobile products, AI execution, and reliable delivery." width="100%">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/capability-orchestration.png"><img src="assets/capability-orchestration-light.png" alt="Anas Al-Akhali capability map: business systems, mobile products, AI execution, and reliable delivery." width="100%"></picture>
 </a>
 
 <a href="https://al-akhali.github.io/en/">
-  <img src="assets/selected-systems-terminal.png" alt="Selected systems: multi-tenant SaaS, modular HR, and AI agents and automation." width="100%">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/selected-systems-terminal.png"><img src="assets/selected-systems-terminal-light.png" alt="Selected systems: multi-tenant SaaS, modular HR, and AI agents and automation." width="100%"></picture>
 </a>
 
-<img src="assets/operating-protocol.png" alt="Operating protocol: understand, structure, build and connect." width="100%">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/operating-protocol.png"><img src="assets/operating-protocol-light.png" alt="Operating protocol: understand, structure, build and connect." width="100%"></picture>
 
-<img src="assets/dual-discipline.png" alt="Information Technology and Accounting combined into system thinking." width="100%">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dual-discipline.png"><img src="assets/dual-discipline-light.png" alt="Information Technology and Accounting combined into system thinking." width="100%"></picture>
 
 <img src="assets/live-public-signal.svg" alt="Live public GitHub metrics for Anas Al-Akhali, automatically updated from the official GitHub API." width="100%">
 
 <a href="mailto:alakhalianas@gmail.com">
-  <img src="assets/contact-signal.png" alt="Open channel to build, improve or connect a system." width="100%">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-signal.png"><img src="assets/contact-signal-light.png" alt="Open channel to build, improve or connect a system." width="100%"></picture>
 </a>
 
 <p align="center">
