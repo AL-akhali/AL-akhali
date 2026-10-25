@@ -25,6 +25,8 @@
 
 <img src="assets/dual-discipline.png" alt="Information Technology and Accounting combined into system thinking." width="100%">
 
+<img src="assets/live-public-signal.svg" alt="Live public GitHub metrics for Anas Al-Akhali, automatically updated from the official GitHub API." width="100%">
+
 <a href="mailto:alakhalianas@gmail.com">
   <img src="assets/contact-signal.png" alt="Open channel to build, improve or connect a system." width="100%">
 </a>

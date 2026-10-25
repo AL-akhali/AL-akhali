@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">Live public GitHub signal for Anas Al-Akhali</title>
+<desc id="desc">Automatically updated public repositories, stars, forks, followers and language distribution.</desc>
+<style>
+text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+.title { fill:#f3f1eb;font:bold 31px Arial,sans-serif } .sub { fill:#aaa69e;font:15px Arial,sans-serif }
+.chrome { fill:#aaa69e;font:bold 13px monospace } .metric { fill:#f3f1eb;font:bold 30px monospace }
+.label { fill:#c9b9a8;font:bold 12px monospace } .small { fill:#aaa69e;font:11px monospace }
+</style>
+<rect width="1200" height="520" fill="#171717"/>
+<defs><pattern id="g" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#24221f"/></pattern></defs>
+<rect width="1200" height="520" fill="url(#g)"/>
+<circle cx="38" cy="32" r="5" fill="#ff6b6b"/><circle cx="62" cy="32" r="5" fill="#a98262"/><circle cx="86" cy="32" r="5" fill="#dededa"/>
+<text x="112" y="36" class="chrome">SIGNAL://LIVE_PUBLIC_DATA</text><text x="1164" y="36" text-anchor="end" class="small">AUTO-SYNC / GITHUB API</text>
+<path d="M30 52H1170" stroke="#34312d"/>
+<text x="56" y="104" class="title">LIVE PUBLIC SIGNAL</text>
+<text x="56" y="137" class="sub">Verified public data. Generated from the official GitHub API.</text>
+<rect x="56" y="157" width="244" height="105" rx="8" fill="#20201f" stroke="#7a6048"/><path d="M56 177V157H76 M280 157H300V177" stroke="#dededa" stroke-width="2"/><text x="76" y="191" class="metric">18</text><text x="76" y="232" class="label">PUBLIC REPOS</text><rect x="328" y="157" width="244" height="105" rx="8" fill="#20201f" stroke="#7a6048"/><path d="M328 177V157H348 M552 157H572V177" stroke="#dededa" stroke-width="2"/><text x="348" y="191" class="metric">1</text><text x="348" y="232" class="label">TOTAL STARS</text><rect x="600" y="157" width="244" height="105" rx="8" fill="#20201f" stroke="#7a6048"/><path d="M600 177V157H620 M824 157H844V177" stroke="#dededa" stroke-width="2"/><text x="620" y="191" class="metric">1</text><text x="620" y="232" class="label">TOTAL FORKS</text><rect x="872" y="157" width="244" height="105" rx="8" fill="#20201f" stroke="#7a6048"/><path d="M872 177V157H892 M1096 157H1116V177" stroke="#dededa" stroke-width="2"/><text x="892" y="191" class="metric">0</text><text x="892" y="232" class="label">FOLLOWERS</text>
+<text x="56" y="322" class="label">LANGUAGE STACK / PUBLIC CODE</text>
+<path d="M56 343H355 M355 300V465 M56 465H1144" stroke="#34312d"/>
+<text x="56" y="382" class="metric">05</text><text x="56" y="412" class="label">ACTIVE LANGUAGES</text>
+<text x="56" y="448" class="small">SOURCE  api.github.com</text>
+<text x="405" y="326" class="label">PHP</text><rect x="595" y="314" width="550" height="10" rx="5" fill="#34312d"/><rect x="595" y="314" width="200" height="10" rx="5" fill="#a98262"/><text x="1138" y="326" text-anchor="end" class="small">36.4%</text><text x="405" y="357" class="label">CSS</text><rect x="595" y="345" width="550" height="10" rx="5" fill="#34312d"/><rect x="595" y="345" width="90" height="10" rx="5" fill="#a98262"/><text x="1138" y="357" text-anchor="end" class="small">16.4%</text><text x="405" y="388" class="label">DART</text><rect x="595" y="376" width="550" height="10" rx="5" fill="#34312d"/><rect x="595" y="376" width="81" height="10" rx="5" fill="#a98262"/><text x="1138" y="388" text-anchor="end" class="small">14.8%</text><text x="405" y="419" class="label">BLADE</text><rect x="595" y="407" width="550" height="10" rx="5" fill="#34312d"/><rect x="595" y="407" width="79" height="10" rx="5" fill="#a98262"/><text x="1138" y="419" text-anchor="end" class="small">14.4%</text><text x="405" y="450" class="label">TYPESCRIPT</text><rect x="595" y="438" width="550" height="10" rx="5" fill="#34312d"/><rect x="595" y="438" width="39" height="10" rx="5" fill="#a98262"/><text x="1138" y="450" text-anchor="end" class="small">7.1%</text>
+<text x="1144" y="495" text-anchor="end" class="small">LAST SYNC  2026-10-25 11:35 UTC</text>
+</svg>
