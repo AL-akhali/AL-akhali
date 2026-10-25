@@ -15,7 +15,8 @@ from xml.sax.saxutils import escape
 
 USERNAME = "AL-akhali"
 ROOT = Path(__file__).resolve().parents[2]
-OUTPUT = ROOT / "assets" / "live-public-signal.svg"
+OUTPUT_DARK = ROOT / "assets" / "live-public-signal.svg"
+OUTPUT_LIGHT = ROOT / "assets" / "live-public-signal-light.svg"
 API = "https://api.github.com"
 
 
@@ -57,10 +58,15 @@ def collect():
     }
 
 
-def render(data):
-    bg, panel, grid = "#171717", "#20201f", "#34312d"
-    ink, white, muted = "#dededa", "#f3f1eb", "#aaa69e"
-    brown, amber, cyan = "#7a6048", "#a98262", "#c9b9a8"
+def render(data, theme="dark"):
+    if theme == "light":
+        bg, panel, grid, fine = "#f5f1ea", "#fffdf9", "#d8cec2", "#e9e1d8"
+        ink, white, muted = "#263a4d", "#172330", "#5f6870"
+        brown, amber, cyan = "#b89a7e", "#9a6540", "#48657d"
+    else:
+        bg, panel, grid, fine = "#171717", "#20201f", "#34312d", "#24221f"
+        ink, white, muted = "#dededa", "#f3f1eb", "#aaa69e"
+        brown, amber, cyan = "#7a6048", "#a98262", "#c9b9a8"
     metrics = [
         ("PUBLIC REPOS", data["repos"]),
         ("TOTAL STARS", data["stars"]),
@@ -76,16 +82,16 @@ def render(data):
         width = max(4, round(550 * ratio))
         rows.append(
             f'<text x="405" y="{y}" class="label">{escape(name.upper())}</text>'
-            f'<rect x="595" y="{y-12}" width="550" height="10" rx="5" fill="{grid}"/>'
-            f'<rect x="595" y="{y-12}" width="{min(width, 550)}" height="10" rx="5" fill="{amber}"/>'
+            f'<rect class="track" x="595" y="{y-12}" width="550" height="10" rx="5" fill="{grid}"/>'
+            f'<rect class="bar" x="595" y="{y-12}" width="{min(width, 550)}" height="10" rx="5" fill="{amber}"/>'
             f'<text x="1138" y="{y}" text-anchor="end" class="small">{ratio*100:.1f}%</text>'
         )
     cards = []
     for index, (label, value) in enumerate(metrics):
         x = 56 + index * 272
         cards.append(
-            f'<rect x="{x}" y="157" width="244" height="105" rx="8" fill="{panel}" stroke="{brown}"/>'
-            f'<path d="M{x} {177}V157H{x+20} M{x+224} 157H{x+244}V177" stroke="{ink}" stroke-width="2"/>'
+            f'<rect class="card" x="{x}" y="157" width="244" height="105" rx="8" fill="{panel}" stroke="{brown}"/>'
+            f'<path class="corner" d="M{x} {177}V157H{x+20} M{x+224} 157H{x+244}V177" stroke="{ink}" stroke-width="2"/>'
             f'<text x="{x+20}" y="191" class="metric">{value}</text>'
             f'<text x="{x+20}" y="232" class="label">{label}</text>'
         )
@@ -99,17 +105,17 @@ text {{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 .chrome {{ fill:{muted};font:bold 13px monospace }} .metric {{ fill:{white};font:bold 30px monospace }}
 .label {{ fill:{cyan};font:bold 12px monospace }} .small {{ fill:{muted};font:11px monospace }}
 </style>
-<rect width="1200" height="520" fill="{bg}"/>
-<defs><pattern id="g" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#24221f"/></pattern></defs>
+<rect class="bg" width="1200" height="520" fill="{bg}"/>
+<defs><pattern id="g" width="30" height="30" patternUnits="userSpaceOnUse"><path class="grid" d="M30 0H0V30" fill="none" stroke="{fine}"/></pattern></defs>
 <rect width="1200" height="520" fill="url(#g)"/>
 <circle cx="38" cy="32" r="5" fill="#ff6b6b"/><circle cx="62" cy="32" r="5" fill="{amber}"/><circle cx="86" cy="32" r="5" fill="{ink}"/>
 <text x="112" y="36" class="chrome">SIGNAL://LIVE_PUBLIC_DATA</text><text x="1164" y="36" text-anchor="end" class="small">AUTO-SYNC / GITHUB API</text>
-<path d="M30 52H1170" stroke="{grid}"/>
+<path class="rule" d="M30 52H1170" stroke="{grid}"/>
 <text x="56" y="104" class="title">LIVE PUBLIC SIGNAL</text>
 <text x="56" y="137" class="sub">Verified public data. Generated from the official GitHub API.</text>
 {''.join(cards)}
 <text x="56" y="322" class="label">LANGUAGE STACK / PUBLIC CODE</text>
-<path d="M56 343H355 M355 300V465 M56 465H1144" stroke="{grid}"/>
+<path class="rule" d="M56 343H355 M355 300V465 M56 465H1144" stroke="{grid}"/>
 <text x="56" y="382" class="metric">{len(top):02d}</text><text x="56" y="412" class="label">ACTIVE LANGUAGES</text>
 <text x="56" y="448" class="small">SOURCE  api.github.com</text>
 {''.join(rows)}
@@ -118,6 +124,8 @@ text {{ font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 
 
 if __name__ == "__main__":
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(render(collect()), encoding="utf-8")
-    print(f"updated {OUTPUT}")
+    OUTPUT_DARK.parent.mkdir(parents=True, exist_ok=True)
+    data = collect()
+    OUTPUT_DARK.write_text(render(data, "dark"), encoding="utf-8")
+    OUTPUT_LIGHT.write_text(render(data, "light"), encoding="utf-8")
+    print(f"updated {OUTPUT_DARK} and {OUTPUT_LIGHT}")
