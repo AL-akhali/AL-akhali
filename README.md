@@ -18,20 +18,20 @@
 <img src="assets/selected-systems-terminal-light.png#gh-light-mode-only" alt="Selected systems in light mode." width="100%">
 
 <!-- PROFESSIONAL EXPERIENCE / TRAVEL-X -->
-
 <img src="assets/professional-experience-dark.png#gh-dark-mode-only" alt="Professional Experience at Travel-X - Dark Mode" width="100%">
 <img src="assets/professional-experience-light.png#gh-light-mode-only" alt="Professional Experience at Travel-X - Light Mode" width="100%">
-
-<p align="center">
-  <a href="https://www.txsaas.online/products/safar-x/"><b>SAFAR-X</b></a>
-  &nbsp; // &nbsp;
-  <a href="https://www.txsaas.online/products/athka-hr/"><b>ATHKA HR</b></a>
-  &nbsp; // &nbsp;
-  <a href="https://www.txsaas.online/products/tabour/"><b>TABOUR</b></a>
-  &nbsp; // &nbsp;
-  <a href="https://www.txsaas.online/products/tayran/"><b>TRIP-X</b></a>
-</p>
-
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://www.txsaas.online/products/safar-x/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/professional-safar-x-dark.png"><source media="(prefers-color-scheme: light)" srcset="assets/professional-safar-x-light.png"><img src="assets/professional-safar-x-light.png" alt="SAFAR-X - Open official product page" width="100%"></picture></a></td>
+<td width="50%" valign="top"><a href="https://www.txsaas.online/products/athka-hr/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/professional-athka-hr-dark.png"><source media="(prefers-color-scheme: light)" srcset="assets/professional-athka-hr-light.png"><img src="assets/professional-athka-hr-light.png" alt="ATHKA HR - Open official product page" width="100%"></picture></a></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://www.txsaas.online/products/tabour/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/professional-tabour-dark.png"><source media="(prefers-color-scheme: light)" srcset="assets/professional-tabour-light.png"><img src="assets/professional-tabour-light.png" alt="TABOUR - Open official product page" width="100%"></picture></a></td>
+<td width="50%" valign="top"><a href="https://www.txsaas.online/products/tayran/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/professional-trip-x-dark.png"><source media="(prefers-color-scheme: light)" srcset="assets/professional-trip-x-light.png"><img src="assets/professional-trip-x-light.png" alt="TRIP-X - Open official product page" width="100%"></picture></a></td>
+</tr>
+</table>
+<p align="center"><sub>ADDITIONAL CONTRIBUTIONS // Flutter Mobile · AI Chatbots & Agents · System Integration · Deployment & Hosting</sub></p>
+<p align="center"><sub>Travel-X team contributions · Company-owned repositories · Public product pages only</sub></p>
 <!-- END PROFESSIONAL EXPERIENCE -->
 
 <img src="assets/operating-protocol.png#gh-dark-mode-only" alt="Operating protocol in dark mode." width="100%">
